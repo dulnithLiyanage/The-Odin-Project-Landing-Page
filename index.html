@@ -4,73 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Landing Page</title>
   </head>
   <body>
     <nav>
-      <div class="logo">Header Logo</div>
+      <div class="logo"><a href="./index.html">Cool Colors</a></div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Info</a></li>
-        <li><a href="#">Testimonial</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
       </ul>
     </nav>
-    <main>
+    <main id="home">
       <div class="main-information">
-        <h1 class="main-title">This website is awesome</h1>
-        <p>
+        <h1 class="main-title">This website is about colors ...</h1>
+        <p class="main-description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
           tempore, asperiores accusantium iure quae harum adipisci iusto est
           tempora atque!
         </p>
-        <div class="btn btn-primary">Sign up</div>
+        <div class="btn btn-primary"><a href="#">Sign up</a></div>
       </div>
       <div class="img">
-        <img src="" alt="" />
+        <img src="./pexels-bruno-thethe-1910225.jpg" alt="" />
       </div>
     </main>
-    <section class="info-section">
+    <section class="info-section" id="info">
       <h2 class="info-title">Some random information</h2>
-      <div class="card">
-        <div class="illustration"></div>
-        <div class="subtext">
-          this is some subtext under an illustration of an image
+      <div class="card-container">
+        <div class="card">
+          <div class="illustration"></div>
+          <div class="subtext">
+            this is some subtext under an illustration of an image
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="illustration"></div>
-        <div class="subtext">
-          this is some subtext under an illustration of an image
+        <div class="card">
+          <div class="illustration"></div>
+          <div class="subtext">
+            this is some subtext under an illustration of an image
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="illustration"></div>
-        <div class="subtext">
-          this is some subtext under an illustration of an image
+        <div class="card">
+          <div class="illustration"></div>
+          <div class="subtext">
+            this is some subtext under an illustration of an image
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="illustration"></div>
-        <div class="subtext">
-          this is some subtext under an illustration of an image
+        <div class="card">
+          <div class="illustration"></div>
+          <div class="subtext">
+            this is some subtext under an illustration of an image
+          </div>
         </div>
       </div>
     </section>
-    <section class="testimonial-section">
+    <section class="quote-section" id="testimonial">
       <blockquote>
         <q
           >This is an inspiring quote, or testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually reed it. Who
+          it's just filling up space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.</q
         >
         <cite>-Thor, God of Thunder</cite>
       </blockquote>
     </section>
-    <section class="call-to-action">
-      <div class="background">
-        <h4 class="call-to-action-text">Call to action! It's time</h4>
-        <p>Sign up for our product by clicking that button right over there</p>
-        <div class="btn btn-secondary">Sign up</div>
+    <section class="cta-section">
+      <div class="cta-background">
+        <div class="cta-text">
+          <h4 class="cta-title">Call to action! It's time</h4>
+          <p class="cta-description">
+            Sign up for our product by clicking that button right over there
+          </p>
+        </div>
+        <div class="btn-container">
+          <div class="btn btn-secondary"><a href="#">Sign up</a></div>
+        </div>
       </div>
     </section>
     <footer>
