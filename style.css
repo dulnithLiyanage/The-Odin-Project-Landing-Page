@@ -39,8 +39,23 @@ a {
 .illustration {
   width: 11em;
   height: 11em;
-  border: 3px solid #3882f6;
   border-radius: 1em;
+}
+
+#card-1 {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+#card-2 {
+  background: linear-gradient(to right, #348f50, #56b4d3);
+}
+
+#card-3 {
+  background: linear-gradient(to right, #da22ff, #9733ee);
+}
+
+#card-4 {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 footer {
@@ -92,7 +107,9 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  background-color: #1f2937;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url("./images/lucas-benjamin-wQLAGv4_OYs-unsplash.jpg") center/cover
+      no-repeat;
   min-height: 100vh;
   color: #fff;
 }
