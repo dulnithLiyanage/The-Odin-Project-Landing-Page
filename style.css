@@ -27,7 +27,6 @@ li {
 
 a {
   text-decoration: none;
-  color: #fff;
 }
 
 /* ! COMPONENTS */
@@ -36,6 +35,7 @@ a {
   display: inline-block;
   padding: 6px 32px;
   border-radius: 0.5em;
+  color: #fff;
 }
 
 .btn-primary {
@@ -101,7 +101,12 @@ nav {
   justify-content: space-between;
   background: transparent;
   position: fixed;
-  color: #fff;
+}
+
+nav.black {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 ul {
@@ -109,10 +114,19 @@ ul {
 }
 
 li a {
-  font-size: 14px;
+  font-size: 13px;
   font-family: var(--josefin);
   text-transform: uppercase;
   padding: 8px 0 0 64px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav.black a {
+  color: #000;
 }
 
 /* ? MAIN */
